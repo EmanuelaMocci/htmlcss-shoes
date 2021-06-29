@@ -36,6 +36,7 @@ nav li{
 nav li a{ 
     text-decoration: none;
     color: rgb(0, 0, 0);
+    display: inline-block;
 }
 
 nav li:hover{
@@ -55,7 +56,6 @@ nav li:hover{
     background-color: yellow;
     height: 100vh;
 }
-
 .testo{
     font-size: 35px;
     width: 550px;
@@ -63,17 +63,15 @@ nav li:hover{
     margin: auto;
     text-align: center;
 }
-img{
-
-}
-
 #scritta-verde{
     color: green;
+}
+img{
+    height: 400px;
 }
 .container{
     position: relative;
 }
-
 .contenuto{
     position: absolute;
     top: 50%;
